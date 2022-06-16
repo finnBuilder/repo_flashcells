@@ -1,5 +1,11 @@
-.accordion
-{
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+ text-align: center;
+}
+.accordion {
   width: 100%;
   color: blue;
   border: none;
@@ -8,14 +14,18 @@
   padding: 10px;
   cursor: pointer;
 }
-.accordion:hover
-{
+.accordion:hover{
 background-color: darkgray;
 }
-.answer_box
-{
+.answer_box{
   display:none;
 }
+nav li{
+ display:inline;
+}
+/*📚📚📚📚📚📚
+Personal CSS Library 📚📚📚📚📚📚*/
+
 /*Text Alignment(ta_)*/
 .ta_center
 {
