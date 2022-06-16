@@ -1,3 +1,17 @@
+.accordion
+{
+  width: 100%;
+  color: blue;
+  border: none;
+  text-align: left;
+  font-size: 16;
+  padding: 10px;
+  cursor: pointer;
+}
+.accordion:hover
+{
+background-color: darkgray;
+}
 /*Text Alignment(ta_)*/
 .ta_center
 {
