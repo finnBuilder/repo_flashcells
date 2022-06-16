@@ -1,0 +1,17 @@
+/*Text Alignment(ta_)*/
+.ta_center
+{
+  text-align: center;
+}
+/*Text Color(cl_) */
+.cl_blue
+{
+  color:blue;
+}
+/*Width(wd_)*/
+.wd
+{
+  width: 100%;
+}
+
+
