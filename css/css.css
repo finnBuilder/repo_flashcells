@@ -12,6 +12,10 @@
 {
 background-color: darkgray;
 }
+.answer_box
+{
+  display:none;
+}
 /*Text Alignment(ta_)*/
 .ta_center
 {
@@ -21,6 +25,10 @@ background-color: darkgray;
 .cl_blue
 {
   color:blue;
+}
+.cl_black
+{
+  color: black; 
 }
 /*Width(wd_)*/
 .wd
