@@ -2,6 +2,32 @@ body{
   margin: 0;
   padding: 0;
 }
+.alb{
+  cursor: pointer;
+  font-size: 18px;
+  padding: 14px 28px;
+  border: none;
+  color:white
+
+}
+.alb:hover{
+  background-color: black;
+}
+.success{
+  background-color: green;
+}
+.info{
+  background-color: blue;
+}
+.warning{
+  background-color: darkorange;
+}
+.danger{
+  background-color: red;
+}
+.default{
+  background-color: darkgray;
+}
 header{
  text-align: center;
 }
