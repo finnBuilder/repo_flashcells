@@ -30,7 +30,9 @@
   <ul>
     <li><a href="#accordion">Accordion</a></li> |
     <li><a href="#alert_buttons">Alert Buttons</a></li> |
-    <li><a href="#change_background_on_scroll">Change Background on Scroll</a></li> 
+    <li><a href="#change_background_on_scroll">Change Background on Scroll</a></li> |
+    <li><a href="#hoverable_dropdown">Hoverable Dropdown</a></li>
+    <li><a href="#js_can_change_html_attribute">JavaScript can change HTML attribute</a></li> 
   </ul>
 </nav>
 </div><!--Hide1🚩1️⃣-->
@@ -89,7 +91,7 @@
 
 <hr>
 <div id="dropdown" class="Hide5 🚩5️⃣">
-  <h2 class="cl_blue ta_center">Hoverable Dropdown</h2>
+  <h2 id="hoverable_dropdown" class="cl_blue ta_center">Hoverable Dropdown</h2>
   <div class="dropdown">
     <button class="dropbtn">Dropdown</button>
     <div class="dropdown-content">
@@ -102,8 +104,14 @@
 
 </div><!--Hide5 🚩5️⃣-->
 </div>
+<hr>
 <!--Hide0🚩⭐-->
-
+<div class="Hide6 🚩6️⃣">
+  <h2 id="js_can_change_html_attribute" class="cl_blue ta_center">JavaScript can change HTML attribute Values</h2>
+  <button onclick="document.getElementById('t_image').src='./img/picSpreadsheetComplete.jpg'">Change Picture</button>
+  <img id="t_image" src="./img/favicon.jpg" alt="test image" width="200px">
+  <button onclick="document.getElementById('t_image').src='./img/favicon.jpg'">Reset Picture</button>
+</div><!--Hide6 🚩6️⃣-->
 <br>
 <br>
 <!--Buttom 🛑-->
