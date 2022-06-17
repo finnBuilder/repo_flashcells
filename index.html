@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="./css/css.css">
 </head>
-<body>
+<body class="bkc_white_off">
 <header class="ta_center">
 <h1 class="ta_center cl_blue">Page 1</h1>
 <!--Q: Why is either Page 1 or the nav section not centered?❓-->
@@ -26,9 +26,17 @@
   </ul>
 </nav>
 </header>
+<nav>
+  <ul>
+    <li><a href="#accordion">Accordion</a></li> |
+    <li><a href="#alert_buttons">Alert Buttons</a></li> |
+    <li><a href="#change_background_on_scroll">Change Background on Scroll</a></li> 
+  </ul>
+</nav>
 </div><!--Hide1🚩1️⃣-->
 <div class="Hide2🚩2️⃣">
-<h2 class="cl_blue ta_center">Accordion Practice</h2>
+  <hr>
+<h2 id="accordion" class="cl_blue ta_center">Accordion Practice</h2>
 <button class="accordion" onclick="document.getElementById('answer1').style.display='block'">Question 1</button>
 <div id="answer1" class="answer_box">
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis ab omnis, quas quod necessitatibus aut facere magni aspernatur, iure obcaecati commodi! Porro labore quo veniam nesciunt, minus error voluptatibus aliquid laudantium earum molestias sed magni blanditiis facilis eius ex, consequatur velit optio expedita tempora repellat doloremque, laboriosam sit atque! Repellendus, assumenda aut magnam eum ab in sunt veniam deleniti suscipit perspiciatis ducimus ratione tempora. Sunt aspernatur perspiciatis ipsam, iure amet, recusandae repellendus cumque quibusdam blanditiis iste modi illum accusamus facilis tempora, maiores sint voluptates temporibus ratione ea! Neque cum iste sed ea quaerat ipsa ex sapiente quo animi doloribus!</p>
@@ -53,24 +61,51 @@
 </div>
 </div>
 <!--Hide2🚩2️⃣-->
-<div class="Hide3 🚩3️⃣">
-</div><!--Hide33️⃣-->
 
-</div>
-<!--Hide0🚩⭐-->
-<div class="Hide4🚩4️⃣">
-<h2 class="ta_center cl_blue"> Alert Buttons Practice</h2>
+<div class="Hide3🚩3️⃣">
+ <hr> 
+<h2 id="alert_buttons" class="ta_center cl_blue"> Alert Buttons Practice</h2>
 <button class="alb success">Success</button>
 <button class="alb info">Info</button>
 <button class="alb warning">Warning</button>
 <button class="alb danger">Danger</button>
 <button class="alb default">Default</button>
-</div><!--Hide4🚩4️⃣-->
+</div><!--Hide3🚩3️⃣-->
+
+<hr>
+<div class="Hide4 🚩4️⃣">
+  </div><!--Hide4 🚩4️⃣-->
+<h2 id="change_background_on_scroll" class="cl_blue ta_center">Change Background on Scroll</h2>
+
+<div class="bgi img1"></div>
+<div class="bgi img2"></div>
+<div class="bgi img3"></div>
+<div class="bgi img4"></div>
+<div class="bgi img5"></div>
+<div class="bgi img6"></div>
 
 
+<div class="bgt">TEXT</div>
 
+<hr>
+<div id="dropdown" class="Hide5 🚩5️⃣">
+  <h2 class="cl_blue ta_center">Hoverable Dropdown</h2>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+</div>
+</div>
 
+</div><!--Hide5 🚩5️⃣-->
+</div>
+<!--Hide0🚩⭐-->
 
+<br>
+<br>
 <!--Buttom 🛑-->
 </body>
 </html>

@@ -1,6 +1,71 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
+  height: 100%; /*❓❓*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bgi{
+  height: 50%;
+  background-size: cover;
+}
+.img1{
+  background-image: url("../img/favicon.jpg");
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dropbtn
+{
+  background-color: aqua;
+  color: darkmagenta;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display:inline-block;
+}
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background-color: antiquewhite;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+  z-index:1;
+}
+.dropdown-content a{
+  color:black;
+  padding:12px 16px;
+  text-decoration:none;
+  display:block;
+}
+.dropdown-content a:hover{
+  background-color: green;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+.dropdown:howver .dropbtn{background-color:red;}
+.bgt{
+  background-color: black;
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width:300px;
+  padding: 20px;
+  text-align: center;
 }
 .alb{
   cursor: pointer;
@@ -53,22 +118,22 @@ nav li{
 Personal CSS Library 📚📚📚📚📚📚*/
 
 /*Text Alignment(ta_)*/
-.ta_center
-{
+.ta_center{
   text-align: center;
 }
 /*Text Color(cl_) */
-.cl_blue
-{
+.cl_blue{
   color:blue;
 }
-.cl_black
-{
+.cl_black{
   color: black; 
 }
+/*Background color(bkc_)*/
+.bkc_white_off{
+  background-color: #0000;
+}
 /*Width(wd_)*/
-.wd
-{
+.wd{
   width: 100%;
 }
 
