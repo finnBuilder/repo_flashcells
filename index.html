@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/css.css">
 </head>
 <body class="bkc_white_off">
+<div id="page">
 <header class="ta_center">
 <h1 class="ta_center cl_blue">Page 1</h1>
 <!--Q: Why is either Page 1 or the nav section not centered?❓-->
@@ -103,17 +104,30 @@
 </div>
 
 </div><!--Hide5 🚩5️⃣-->
-</div>
 <hr>
-<!--Hide0🚩⭐-->
 <div class="Hide6 🚩6️⃣">
   <h2 id="js_can_change_html_attribute" class="cl_blue ta_center">JavaScript can change HTML attribute Values</h2>
-  <button onclick="document.getElementById('t_image').src='./img/picSpreadsheetComplete.jpg'">Change Picture</button>
+  <button onclick="document.getElementById('t_image').src='./img/picSpreadsheetComplete_v2.jpg'">Change Picture</button>
   <img id="t_image" src="./img/favicon.jpg" alt="test image" width="200px">
   <button onclick="document.getElementById('t_image').src='./img/favicon.jpg'">Reset Picture</button>
 </div><!--Hide6 🚩6️⃣-->
+</div>
+<hr>
+<!--Hide7 🚩7️⃣-->
+<div>
+  <h2 class="cl_blue ta_center">JavaScript Can Change HTML Content</h2>
+  <p id="text_change" >Go after every....</p>
+  <button onclick="document.getElementById('text_change').innerHTML = 'MOMENT!'">?</button>
+  <button onclick="document.getElementById('text_change').style.fontSize='45px'">Big</button>
+  <button onclick="document.getElementById('text_change').innerHTML='Go after every....'">Reset</button>
+
+</div><!--/Hide7 🚩7️⃣-->
+<hr>
+<!--Hide0🚩⭐-->
 <br>
 <br>
+</div>
+<button onclick="document.getElementById('page').style.display='none'">Hide Page</button>
 <!--Buttom 🛑-->
 </body>
 </html>

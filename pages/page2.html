@@ -7,18 +7,58 @@
   <title>Page2</title>
 
   <link rel="stylesheet" href="../css/css.css">
-  
+
   <style>
     .img_test{
       background-image: url("../img/favicon.jpg");
       
       background-size: cover;
     }
+    .btn{
+      border: 10px solid chocolate;
+      background-color: white;
+      color: black;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .win{
+      border-color: aqua;
+      color: red;
+    }
+    .win:hover{
+      background-color: yellow;
+    }
+    .info{
+      border-color: blue;
+      color: red;
+    }
+    .info:hover{
+      background-color: yellow;
+      color: green;
+    }
+    .warning{
+      border-color: red;
+      color:red;
+    }
+    .warning:hover{
+      background-color: red;
+      color: yellow;
+    }
+  
   </style>
 </head>
-<body>
-<div class="img_test">
-  <p>testing1 </p>
+<div>
+<div id="page" class="img_test">
+  <h1>Page 2</h1>
+
+  <h2>Outline Buttons</h2>
+
+  <button class="btn win">Win</button>
+  <button class="btn info">Info</button>
+  <button class="btn warning">Warning</button>
+
+  
   <br>
   <br>
   <br>
@@ -40,6 +80,10 @@
   <br>
   <br>
 </div>
-  
+
+<button class="cl_bg_red" onclick="document.getElementById('page').style.display='none'">Hide page</button> 
+<button onclick="document.getElementById('page').style.display='none'">Hide Page</button>
+</div>
+<button onclick="document.getElementById('page').style.display='block'">Reset</button>
 </body>
 </html>
